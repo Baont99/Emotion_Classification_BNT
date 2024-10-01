@@ -1,7 +1,7 @@
 # Deploy Deep Learning Model with FastAPI
 ## Project Overview
 
-![Overview](assets/emotion_0.webp)
+![Overview](assets/emotion_0.png)
 
 The system prepares and processes the AffectNet dataset, splitting the data for training and testing on the ResNet-18 model. The model is optimized by tuning hyperparameters, and an API for real-time image emotion prediction is deployed using FastAPI. 
 
