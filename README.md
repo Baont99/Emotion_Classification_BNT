@@ -36,7 +36,25 @@ root/
 └── server.py
 
 ```
+### How to run?
 
+Clone the project
+```
+$ git clone https://github.com/Baont99/Emotion_Classification_BNT.git
+```
+
+Install the requirements
+```
+$ pip install -r requirements.txt
+```
+
+Activate environment setup in conda (Link)[https://www.youtube.com/watch?v=VvoGXTGuRiQ]
+```
+conda activate {name_enviroment}  
+
+Run app.py
+```
+uvicorn app:app --reload
 ---
 
 Result
